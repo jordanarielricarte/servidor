@@ -126,6 +126,6 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CORS_ORIGIN_REGEX_WHITELIST = (
-    'https://ramirezsergio.github.io/',
+    'https://jordanarielricarte.github.io/jordanarielricarte.github.io/',
     'http://127.0.0.1:8887',
 )
