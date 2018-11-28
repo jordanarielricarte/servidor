@@ -8,7 +8,7 @@ class Perro(models.Model):
         )
     id_mascota = models.AutoField(primary_key=True)
     imagen_mascota = models.ImageField(blank=True, null=True,
-                     upload_to="perros/%Y/%m/%D/")##esto si no cachas es para que al guardar no sea el mismo nombre de imagen y no tenga conflictos al momento de guardar un img vale
+                     upload_to="perros/%Y/%m/%D/")##esto es para que al guardar no sea el mismo nombre de imagen y no tenga conflictos al momento de guardar un img
                       ## asi se  guarda una imagen segun la carpeta de su dia mes y año
     nombre_mascota = models.CharField(max_length=15)
     raza_mascota = models.CharField(max_length=30)
